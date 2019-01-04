@@ -10,7 +10,7 @@ background: '/img/posts/ADsecurity.jpg'
 <p>Also, you'll notice the <i>risk</i> and <i>remediation</i> verbiage. I do primarily GRC (government regulatory compliance), so this is the jargon I use. Feel free to mentally substitute what words make sense to you if your specialization of InfoSec defines it differently.</p>
 
 <h1>Operating System Security<h1>
-<h2>Risk</h2
+<h2>Risk</h2>
 <p>One of the features of Windows Server Operating Systems prior to version 2012 is the ability to reset the local administrator password with a Windows installation CD. This means that anyone with physical (or virtual) access to the machine can become a local administrator. While Domain Controllers do not have a <i>local admin password</i>, they have a _<i>Domain Services Restore Password</i>, which functions the same way. Once logged in with this account, someone could add themselves to the Domain Admins Group and establish persistence. In fact, I had to do this in a few years back on the legacy domain for a client in Malaysia to resolve an Exchange Server issue, which was on a Domain Controller.</p>
 
 <h2>Remediation</h2>
