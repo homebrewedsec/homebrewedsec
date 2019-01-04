@@ -16,27 +16,27 @@ background: '/img/posts/ADsecurity.jpg'
 <h2>Remediation</h2>
 <p>Upgrade all Domain Controllers and Servers to Server 2012 or higher, ideally to Server 2016. Alert whenever sensitive groups are modified. For example:</p>
   <ul>
-    <li>Schema Admins
-    <li>Enterprise Admins
-    <li>Domain Admins
-    <li>Administrators
-    <li>Organization Management
+    <li>Schema Admins</li>
+    <li>Enterprise Admins</li>
+    <li>Domain Admins</li>
+    <li>Administrators</li>
+    <li>Organization Management</li>
   </ul>
 
 <h1>Exchange Administration Security</h1>
 <h2>Risk</h2>
 Local Administrators of Exchange Servers are able to obtain plaintext passwords from password hashes.
 <h2>Remediation</h2>
-<p>Do not grant Exchange local administrator privileges to administrators that are not members of <b>“Organization Management”</b>.</p>
+<p>Do not grant Exchange local administrator privileges to administrators that are not members of <i>“Organization Management”</i>.</p>
 
 <h1>Hypervisor Security</h1>
 <h2>Risk</h2>
 <p>Physical security threats are somewhat replaced by virtual security threats in virtualized environments. Regardless of how vCenter or vSphere privileges are delegated, anyone with the hypervisor root password can modify and access any virtual machines on that host, including Domain Controllers. This means they could copy the vmdk, or attach it to another Virtual Machine. Once the Virtual Machine is accessible, they can pull 'ntds.dit' from the Active Directory database, the encryption key, and then crack users' passwords without maintaining persistence on the Domain Controller.</p>
 <h2>Remediation</h2>
 <ul>
-  <li>Restrict knowledge of and access to the root account on ESX hosts and vCenter servers
-  <li>Implemented VMDK (VM disk file) encryption from the hypervisor
-  <li>Place Domain Controllers on separate ESX hosts
+  <li>Restrict knowledge of and access to the root account on ESX hosts and vCenter servers</li>
+  <li>Implemented VMDK (VM disk file) encryption from the hypervisor</li>
+  <li>Place Domain Controllers on separate ESX hosts</li>
 </ul>
   
 <h1>Administrator Security</h1>
@@ -48,7 +48,7 @@ Local Administrators of Exchange Servers are able to obtain plaintext passwords 
 
 <h1>High-Risk Branches</h1>
 <h2>Risk</h2>
-<p>If there are any branches where physical (or network) security cannot be guaranteed for any reason, certain additional safeguards should be put in place. Hypothetically, these are not needed if the previous recommendations are implemented, but combining all of these increases security exponentially. Network security is <b>slightly</b> less critical due to the fact that Active Directory replication traffic is encrypted, but should still be considered.</p>
+<p>If there are any branches where physical (or network) security cannot be guaranteed for any reason, certain additional safeguards should be put in place. Hypothetically, these are not needed if the previous recommendations are implemented, but combining all of these increases security exponentially. Network security is <i>slightly</i> less critical due to the fact that Active Directory replication traffic is encrypted, but should still be considered.</p>
 
 <h2>Remediation</h2>
 <p>Implement Read-Only Domain Controllers (RODCs) in these high-risk branches. This way passwords are only sent and stored as needed locally. For example, <i>Alice’s*</i> password would only replicate if <i>Alice</i> is in the local office and attempts to authenticate.</p>
