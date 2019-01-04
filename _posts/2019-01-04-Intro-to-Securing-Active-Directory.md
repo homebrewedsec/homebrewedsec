@@ -20,8 +20,7 @@ background: '/img/posts/ADsecurity.jpg'
     <li>Enterprise Admins</li>
     <li>Domain Admins</li>
     <li>Administrators</li>
-    <li>Organization Management</li>
-  </ul>
+    <li>Organization Management</li></ul>
 
 <h1>Exchange Administration Security</h1>
 <h2>Risk</h2>
@@ -36,8 +35,7 @@ Local Administrators of Exchange Servers are able to obtain plaintext passwords 
 <ul>
   <li>Restrict knowledge of and access to the root account on ESX hosts and vCenter servers</li>
   <li>Implemented VMDK (VM disk file) encryption from the hypervisor</li>
-  <li>Place Domain Controllers on separate ESX hosts</li>
-</ul>
+  <li>Place Domain Controllers on separate ESX hosts</li></ul>
   
 <h1>Administrator Security</h1>
 <h2>Risk</h2>
