@@ -52,4 +52,4 @@ Local Administrators of Exchange Servers are able to obtain plaintext passwords 
 <p>Implement Read-Only Domain Controllers (RODCs) in these high-risk branches. This way passwords are only sent and stored as needed locally. For example, <i>Alice’s*</i> password would only replicate if <i>Alice</i> is in the local office and attempts to authenticate.</p>
 
 <h1>Sources</h1>
-<a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4964)">https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4964)</a>
+<p><a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4964)">https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4964)</a></p>
