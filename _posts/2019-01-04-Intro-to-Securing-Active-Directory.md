@@ -14,9 +14,7 @@ background: '/img/posts/ADsecurity.jpg'
 <p>One of the features of Windows Server Operating Systems prior to version 2012 is the ability to reset the local administrator password with a Windows installation CD. This means that anyone with physical (or virtual) access to the machine can become a local administrator. While Domain Controllers do not have a <i>local admin password</i>, they have a _<i>Domain Services Restore Password</i>, which functions the same way. Once logged in with this account, someone could add themselves to the Domain Admins Group and establish persistence. In fact, I had to do this in a few years back on the legacy domain for a client in Malaysia to resolve an Exchange Server issue, which was on a Domain Controller.</p>
 
 <h2>Remediation</h2>
-<ul>
-  <li>Upgrade all Domain Controllers and Servers to Server 2012 or higher, ideally to Server 2016
-  <li>Alert whenever sensitive groups are modified. For example:
+<p>Upgrade all Domain Controllers and Servers to Server 2012 or higher, ideally to Server 2016. Alert whenever sensitive groups are modified. For example:</p>
   <ul>
     <li>Schema Admins
     <li>Enterprise Admins
@@ -24,7 +22,6 @@ background: '/img/posts/ADsecurity.jpg'
     <li>Administrators
     <li>Organization Management
   </ul>
-</ul>
 
 <h1>Exchange Administration Security</h1>
 <h2>Risk</h2>
