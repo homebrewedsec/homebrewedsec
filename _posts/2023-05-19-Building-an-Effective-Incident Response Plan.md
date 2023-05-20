@@ -5,8 +5,6 @@ title:  "Building an Effective Incident Response Plan"
 background: '/img/posts/irplan.jpg'
 ---
 
-<h1>I Don't Need No Stinkin' Plan</h1>
-
 <p>An incident response plan serves as a proactive roadmap to mitigate and minimize the impact of security breaches or operational disruptions. By establishing a well-defined plan, assembling a competent team, and regularly refining your processes, you can effectively respond to and mitigate the impact of security incidents. Remember, incident response planning is an ongoing process that requires constant vigilance and adaptation to the evolving threat landscape. Prioritize testing and training to ensure that your plan is effective and capable of guiding your organization through any incident that may arise. By learning from past incidents and leveraging external resources, you can continuously improve your incident response capabilities, ultimately safeguarding your organization's assets, reputation, and stakeholders' trust.</p>
 
 <h1>Define Incident Response Objectives</h1>
