@@ -1,12 +1,12 @@
 title:             HomeBrewedSec Blog
-email:             huddon@homebrewedsec.com
+#email:             
 description:       Brew Beer. Secure Things.
 author:            HomeBrewedSec
 baseurl:           ""
 url:               "http://HomeBrewedSec.com"
 
 # Social Profiles
-twitter_username:  HomeBrewedSec
+#twitter_username:  @HomeBrewedSec
 github_username:   
 facebook_username: 
 
