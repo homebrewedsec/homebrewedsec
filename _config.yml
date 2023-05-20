@@ -1,19 +1,14 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+title:             HomeBrewedSec Blog
+email:             huddon@homebrewedsec.com
+description:       Brew Beer. Secure Things.
+author:            HomeBrewedSec
+baseurl:           ""
+url:               "http://HomeBrewedSec.com"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
-linkedin_username:
-
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+twitter_username:  HomeBrewedSec
+github_username:   
+facebook_username: 
 
 # Build settings
 markdown:           kramdown
@@ -22,4 +17,6 @@ paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-twitter-plugin
