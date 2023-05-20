@@ -4,11 +4,16 @@ description:       Brew Beer. Secure Things.
 author:            HomeBrewedSec
 baseurl:           ""
 url:               "http://HomeBrewedSec.com"
+permalink:         pretty
 
 # Social Profiles
 #twitter_username:  @HomeBrewedSec
 github_username:   
 facebook_username: 
+
+#RSS
+feed:
+  path: feed.xml
 
 # Build settings
 markdown:           kramdown
